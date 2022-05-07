@@ -5,6 +5,8 @@ categories: github
 tag: [blog, github]
 toc: true
 author_profile: false
+sidebar:
+  nav: "docs"
 --- 
 
 ## STEP 1 페이지 생성
