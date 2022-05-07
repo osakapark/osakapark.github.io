@@ -4,6 +4,7 @@ title:  "Github Blog 작성"
 categories: github
 tag: [blog, github]
 toc: true
+author_profile: false
 --- 
 
 ## STEP 1 페이지 생성
