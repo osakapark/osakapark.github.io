@@ -125,5 +125,5 @@ tag: [blog, github]
  마크다운 문법 강좌 : 편안한 Jekyll 사용법을 위한 마크다운 문법 
  
 
-
+![teddy_captured_20171222112813.jpg]({{site.baseurl}}/images/2021-05-07-github-blog/apeach01.png)
 ![샘플 이미지](../images/2021-05-07-github-blog/apeach01.png)
