@@ -130,7 +130,7 @@ permalink: /404.html
 ```
 
 ## STEP 6 Sidebar Navigation
--data/navigation.yml
+/_data/navigation.yml
 ```yml
 main:
   - title: "Category"
