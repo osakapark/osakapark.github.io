@@ -7,6 +7,7 @@ toc: true
 author_profile: false
 sidebar:
   nav: "docs"
+search: true  
 --- 
 
 ## STEP 1 페이지 생성
