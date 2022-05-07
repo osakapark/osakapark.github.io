@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Osakapark's blog"
+title                    : "Osakapark"
 title_separator          : "|"
 subtitle                 : 百見而不如一打
 name                     : "Osakapark"
