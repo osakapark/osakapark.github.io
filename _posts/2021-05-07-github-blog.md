@@ -128,11 +128,8 @@ excerpt: "Page not found. Your pixels are in another canvas."
 sitemap: false
 permalink: /404.html
 ---
-```
-
-
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSINa_zSqQSG_KsOcaRWc8hgoncoihL6eiTVtMKUHY8e7gub_cVFR96y_LEPD9Gk2knQ2o&usqp=CAU)
-
+```
 
 image  처리
 ```yml
