@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "osakapark's note1"
+title                    : "osakapark's note2"
 title_separator          : "/"
 subtitle                 : "百見而不如一打"
 name                     : "osakapark"
@@ -106,7 +106,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I like what i like."
   location         : "Somewhere in Busan"
-  email            : 
+  email            : "hansya@nate.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
