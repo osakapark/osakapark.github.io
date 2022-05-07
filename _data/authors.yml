@@ -1,7 +1,7 @@
 osakapark_author:
   name        : "osakapark"
   bio         : "What's up?"
-  #avatar      : "/assets/images/bio-photo-2.jpg"
+  avatar      : "/assets/images/apeach_run.gif"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
