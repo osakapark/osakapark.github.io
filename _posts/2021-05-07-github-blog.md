@@ -137,6 +137,8 @@ main:
     url: /categories/
   - title: "Tag"
     url: /tags/    
+  - title: "Search"
+    url: /search/
 
 docs:
   - title: "main item"
@@ -149,7 +151,7 @@ docs:
 
 /_pages/search.md
 ```yml
- ---
+---
 title: Search
 layout: search
 permalink: /search/
@@ -173,10 +175,6 @@ search: true
 
 
 
-image  처리
-```md
-![record apeach]({{site.baseurl}}/images/2021-05-07-github-blog/apeach01.png)
-```
 
 ## 참고 자료
  https://jekyllrb.com/docs/posts/
@@ -184,6 +182,12 @@ image  처리
  https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
  
  마크다운 문법 강좌 : 편안한 Jekyll 사용법을 위한 마크다운 문법 
+ 
+ 
+image  처리
+```md
+![record apeach]({{site.baseurl}}/images/2021-05-07-github-blog/apeach01.png)
+```
  
 
 ![record apeach]({{site.baseurl}}/images/2021-05-07-github-blog/apeach01.png)
