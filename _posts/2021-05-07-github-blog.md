@@ -189,6 +189,13 @@ image  처리
 ![record apeach]({{site.baseurl}}/images/2021-05-07-github-blog/apeach01.png)
 ```
  
+ _config.yml
+ ```yml
+markdown : kramdown   #기본값
+highlighter: rouge    #기본값
+pagenate  # 페이지 숫자
+timezone : Asia/Seoul  #현재 문제 있음
+ ```
 
 ![record apeach]({{site.baseurl}}/images/2021-05-07-github-blog/apeach01.png)
 ![샘플 이미지](../images/2021-05-07-github-blog/apeach01.png)
