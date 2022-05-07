@@ -1,14 +1,12 @@
 osakapark_author:
-  name        : "osaka park"
-  bio         : "What do you want, jewels? I am a very extravagant man."
+  name        : "osakapark"
+  bio         : "What do you want?"
   #avatar      : "/assets/images/bio-photo-2.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:billyrick@rick.com"
+      url: "mailto:hansya@nate.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://thewhip.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/extravagantman"
+      url: "https://osakapark.github.io"
+  
