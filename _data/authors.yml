@@ -9,6 +9,6 @@ osakapark_author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://osakapark.github.io"
-    - label: "Website2"
+    - label: "Github"
       icon: "fas fa-fw fa-link"
       url: "https://github.com/osakapark"
