@@ -147,7 +147,7 @@ docs:
         url: /tags/
 ```
 
-_pages/search.md
+/_pages/search.md
 ```yml
  ---
 title: Search
@@ -156,7 +156,7 @@ permalink: /search/
 ---
 ```
 
-_post file
+/_post/(file)
 ```yml
 ---
 layout: single
