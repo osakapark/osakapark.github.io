@@ -2,9 +2,7 @@
 layout: single
 title:  "첫 포스팅"
 categories: github
-tag: [blog, github]
 --- 
-
 
 ## STEP 1 페이지 생성
 
@@ -15,13 +13,12 @@ tag: [blog, github]
 3. Fork <br>
    우측 상단 Fork 버튼
 4. Repository name  변경<br>
-  githubid.github.io (예 :  osakapark.github.io ) <br>
+  [githubid].github.io (예 :  osakapark.github.io ) <br>
   repository/setting  에서도 변경 가능 
 5. Create fork
 
 
 ## STEP 2 _config.yml  편집
-
 /_data/authors.yml
 ```
 osakapark_author:
@@ -43,8 +40,8 @@ osakapark_author:
   - 그림 파일 추가
 
 ## STEP 3 Category
-_config.yml  주석풀기
-```
+_config.yml  주석풀기 
+``` yml
  jekyll-archives:
    enabled:
      - categories
@@ -55,5 +52,77 @@ _config.yml  주석풀기
    permalinks:
      category: /categories/:name/
      tag: /tags/:name/
+
+#  수정 : 주석 풀면 안됨 그대로!!! (2022.05.07)     
 ```
 
+ _pages/category-archive.md
+``` yml
+--- 
+title: "Category"
+layout: categories
+permalink: /categories/
+author_profile: true
+sidebar_main: true
+---
+```
+
+/_data/navigation.yml
+``` yml
+# main links
+main:
+  - title: "Category"
+    url: /categories/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+```
+
+
+## STEP 4 Tag
+/_pages/tag-archive.md
+```yml
+---
+title: "Tag"
+layout: tags
+permalink: /tags/
+author_profile: true
+sidebar_main: true
+---
+```
+
+
+/_data/navigation.yml
+``` yml
+main:
+  - title: "Category"
+    url: /categories/
+  - title: "Tag"
+    url: /tags/  
+```
+
+/_posts/2021-05-07-xxx.md
+```
+---
+layout: single
+title:  "첫 포스팅"
+categories: github
+tag: [blog, github]
+--- 
+```
+
+## 참고 자료
+ https://jekyllrb.com/docs/posts/
+ 
+ https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+ 
+ 마크다운 문법 강좌 : 편안한 Jekyll 사용법을 위한 마크다운 문법 
+ 
+
+
+![샘플 이미지](../images/apeach01.png)
