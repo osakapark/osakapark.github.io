@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "osakapark's note3"
+title                    : "osakapark's note4"
 title_separator          : "/"
 subtitle                 : "百見而不如一打"
 name                     : "osakapark"
@@ -110,13 +110,13 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+       url: "mailto:hansya@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
        url:  "https://osakapark.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+       url: "https://github.com/osakapark"
       
 # Site Footer
 footer:
