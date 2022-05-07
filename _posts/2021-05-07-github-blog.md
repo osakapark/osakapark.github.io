@@ -26,7 +26,7 @@ search: true
 
 ## STEP 2 _config.yml  편집
 /_data/authors.yml
-```
+```yml
 osakapark_author:
   name        : "osakapark"
   bio         : "What's up?"
@@ -38,12 +38,14 @@ osakapark_author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://osakapark.github.io"
-    - label: "Github1"
+    - label: "Github"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/osakapark"
 ```
 /assets/images/
+```
   - 그림 파일 추가
+```  
 
 ## STEP 3 Category
 _config.yml  주석풀기 
@@ -79,14 +81,6 @@ sidebar_main: true
 main:
   - title: "Category"
     url: /categories/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
 ```
 
 
@@ -101,7 +95,6 @@ author_profile: true
 sidebar_main: true
 ---
 ```
-
 
 /_data/navigation.yml
 ``` yml
@@ -122,7 +115,7 @@ tag: [blog, github]
 --- 
 ```
 
-## STEP 5 404 P
+## STEP 5 404 Error 
 /~pages/404.md
 
 ```md
@@ -135,6 +128,34 @@ permalink: /404.html
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSINa_zSqQSG_KsOcaRWc8hgoncoihL6eiTVtMKUHY8e7gub_cVFR96y_LEPD9Gk2knQ2o&usqp=CAU)
 ```
+
+## STEP 6 Sidebar Navigation
+-data/navigation.yml
+```yml
+main:
+  - title: "Category"
+    url: /categories/
+  - title: "Tag"
+    url: /tags/    
+
+docs:
+  - title: "main item"
+    children:
+      - title: "Category"
+        url: /categories/
+      - title: "Tag"
+        url: /tags/
+```
+
+_pages/search.md
+ ---
+title: Search
+layout: search
+permalink: /search/
+---
+
+
+
 
 image  처리
 ```md
