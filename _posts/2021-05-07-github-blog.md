@@ -1,7 +1,9 @@
----
-layout: page
-
----
+ ---
+layout: single
+title:  "첫 포스팅"
+categories: github
+tag: tag1
+--- 
 
 
 ## STEP 1 페이지 생성
