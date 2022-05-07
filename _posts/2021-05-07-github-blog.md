@@ -148,12 +148,28 @@ docs:
 ```
 
 _pages/search.md
+```yml
  ---
 title: Search
 layout: search
 permalink: /search/
 ---
+```
 
+_post file
+```yml
+---
+layout: single
+title:  "Github Blog 작성"
+categories: github
+tag: [blog, github]
+toc: true
+author_profile: false
+sidebar:
+  nav: "docs"
+search: true  
+--- 
+```
 
 
 
