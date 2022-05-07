@@ -129,7 +129,7 @@ permalink: /404.html
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSINa_zSqQSG_KsOcaRWc8hgoncoihL6eiTVtMKUHY8e7gub_cVFR96y_LEPD9Gk2knQ2o&usqp=CAU)
 ```
 
-## STEP 6 Sidebar Navigation
+## STEP 6 Sidebar Navigation & Search
 /_data/navigation.yml
 ```yml
 main:
