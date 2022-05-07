@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "첫 포스팅"
+title:  "Github Blog 작성"
 categories: github
 tag: [blog, github]
 --- 
