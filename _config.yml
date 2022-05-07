@@ -20,7 +20,7 @@ title                    : "osakapark's note"
 title_separator          : "/"
 subtitle                 : "百見而不如一打"
 name                     : "osakapark"
-description              : "An amazing website."
+description              : "my note"
 url                      :  "https://osakapark.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -102,10 +102,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "osakapark"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "I like what i like."
+  location         : "Somewhere in Busan"
   email            :
   links:
     - label: "Email"
