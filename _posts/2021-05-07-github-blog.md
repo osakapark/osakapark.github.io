@@ -1,3 +1,9 @@
+---
+layout: page
+
+---
+
+
 ## STEP 1 페이지 생성
 
 1. github.com 계정 생성
