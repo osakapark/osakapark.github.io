@@ -12,6 +12,13 @@ search: true
 --- 
 
 
+## STEP 1
+- react-app folder  생성
+- npx create-react-app . 
+- npm start   (react  개발환경 실행됨)
+- npm run build
+- npx serve -s build
+
 ```react
 import logo from './logo.svg';
 import './App.css';
