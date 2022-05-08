@@ -4,6 +4,7 @@ title:  "Github Blog 작성"
 categories: github
 tag: [blog, github]
 toc: true
+toc_sticky: true
 author_profile: false
 sidebar:
   nav: "docs"
