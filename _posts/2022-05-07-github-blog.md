@@ -198,5 +198,13 @@ pagenate  # 페이지 숫자
 timezone : Asia/Seoul  #현재 문제 있음
  ```
 
+나중에 정
+```  
+  default.values.show_date : true  
+  date_format: "%Y-%m-%d"
+  
+```
+
+
 ![record apeach]({{site.baseurl}}/images/2021-05-07-github-blog/apeach01.png)
 ![샘플 이미지](../images/2021-05-07-github-blog/apeach01.png)
